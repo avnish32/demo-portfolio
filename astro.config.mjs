@@ -7,6 +7,6 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind(), sitemap(), mdx()],
-  site: 'https://avnish32',
+  site: 'https://avnish32.github.io',
   base: '/demo-portfolio',
 });
